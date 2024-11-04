@@ -1,6 +1,6 @@
 # Buonjiorno
 
-## Updated Puzzle 3
+## Puzzle 3
 https://guyfromhershey.github.io/IGME-110-Repo/puzzle3.html
 
 ## Puzzle 2 Link
