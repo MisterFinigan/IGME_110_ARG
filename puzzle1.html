@@ -1,6 +1,6 @@
 <!--FOUND ME!-->
 <!--VISIT THIS WEBSITE:-->
-<!-- https://puzzel.org/en/jigsaw/play?p=-OAf-Y4fD1TWgFYrLGj5 -->
+<!-- https://puzzel.org/jigsaw/play?p=-OAf-Y4fD1TWgFYrLGj5 -->
 
 
 <!--Credit (how I learned to make this crossword):-->
@@ -57,7 +57,11 @@
       form {
         text-align: center;
       }
-      img {
+      .hostage {
+        width: 375px;
+        height: 375px;
+      }
+      .alwayshasbeen{
         width: 500px; 
         height: 375px;
         display: none; 
@@ -97,9 +101,15 @@
     <title>Where's Ritchie?</title>
   </head>
   <body>
-    <h1 style="color:#f76902;">Good work finding this QR code.</h1>
-    <p style="color:#ffffff;">If you wish to find Ritchie,</p>
-    <p style="color:#f76902;">SOLVE THIS!</p>
+    <h1 style="color:#f76902;">GREETINGS, EARTHLING.</h1>
+    <p style="color:#ffffff;">WE HAVE TAKEN THE UGLY ORANGE HAIRY MASS YOU KNOW AS RITCHIE AS OUR HOSTAGE</p>
+    <div style="text-align: center;" class="hostage">
+      <img src=https://github.com/MisterFinigan/IGME_110_ARG/blob/main/hostage.png?raw=true>
+    </div>
+    <p style="color:#ffffff;font-size:40px;"><br>IF YOU WISH TO FIND HIM, YOU MUST BE OUR TEST SUBJECT
+      <br>OUR EXPERIMENT TESTS THE EXTENT OF HUMAN INTELLIGENCE
+      <br>LET US SEE IF YOU HAVE THE BRAINS TO SAVE YOUR PRECIOUS FELINE ORGANISM</p>
+    <p style="color:#f76902;">SOLVE THIS!
     <table align="center">
       <tr> <!--1-->
         <td></td> <!--1-->
@@ -539,8 +549,10 @@
         <td></td> <!--21-->
       </tr>
     </table>
-    <img id="alwayshasbeen" src =
-      https://github.com/guyfromhershey/IGME-110-Repo/blob/main/testimages/alwayshasbeen.png?raw=true>
+    <div class="alwayshasbeen">
+      <img id="alwayshasbeen" src =
+        https://github.com/guyfromhershey/IGME-110-Repo/blob/main/testimages/alwayshasbeen.png?raw=true>
+    </div>
     <h2>Across</h2>
     <p style="color:#ffffff;font-size:20px">1. What Mr. Gadget does in his eponymous animated TV show</p>
     <form onsubmit="submit1()" action="javascript:null">
